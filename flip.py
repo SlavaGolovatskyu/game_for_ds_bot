@@ -1,8 +1,8 @@
 # DISCORD.PY // FOR COGS 
 import random, discord
 class user(commands.Cog):
-	def __init__(self, bot):
-		self.bot = bot
+  def __init__(self, bot):
+	self.bot = bot
 
   @commands.command()
   async def flip(self, ctx, member: discord.Member, get: str = None, money: int = None):
