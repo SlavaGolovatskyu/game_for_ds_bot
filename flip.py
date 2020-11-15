@@ -7,7 +7,7 @@ class user(commands.Cog):
 	self.bot = bot
 
   @commands.command()
-  async def flip(self, ctx, member: discord.Member, get: str = None, money: int = None):
+  async def flip(self, ctx, member: discord.Member, get: str):
     h = random.randint(0, 1)
     list_for_game = ['Орел', 'Решка']
     if get == 'Орел':
