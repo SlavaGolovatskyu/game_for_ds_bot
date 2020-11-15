@@ -1,5 +1,7 @@
 # DISCORD.PY // FOR COGS 
 import random, discord
+
+
 class user(commands.Cog):
   def __init__(self, bot):
 	self.bot = bot
