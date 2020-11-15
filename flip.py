@@ -1,5 +1,5 @@
 # DISCORD.PY // FOR COGS 
-import random
+import random, discord
 @commands.command()
 async def flip(self, ctx, member: discord.Member, get: str = None, money: int = None):
   h = random.randint(0, 1)
